@@ -1,0 +1,10 @@
+{
+  "name": "milk",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index"
+  },
+  "main": "index.js",
+  "dependencies": {}
+}
