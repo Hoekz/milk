@@ -3,8 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node index"
+    "start": "node index",
+    "test": "node node_modules/jasmine/bin/jasmine.js",
+    "clean": "rm -rf node_modules && npm install"
   },
   "main": "index.js",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
 }

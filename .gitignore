@@ -2,3 +2,4 @@
 *.log
 *.mlk
 *.report
+node_modules/

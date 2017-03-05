@@ -14,8 +14,8 @@ class Stream {
     parseSpec () {
         fs.read(this.fd, Buffer.alloc(2), 0, 2, 0).then(([br, buf]) => {
             this.spec = {
-                length: buf.readInt8(0),
-                type: Stream.types[buf.readInt8(1)]
+                length: buf.readUInt8(0),
+                type: Stream.types[buf.readUInt8(1)]
             };
         });
     }
